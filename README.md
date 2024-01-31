@@ -4,7 +4,7 @@ This is a very simple web server for delivering files and two custom pages. The 
 
 ## Domain
 
-To customize the domain, have a look in the nginx-conf folder inside the default.conf:
+To customize the domain, have a look in the nginx-conf folder inside the default.conf, espacially the line with server_name:
 
 ```bash
 server {

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  fileserver:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./files:/usr/share/nginx/html
+      - ./nginx-conf/default.conf:/etc/nginx/conf.d/default.conf
